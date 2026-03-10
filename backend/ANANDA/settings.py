@@ -5,7 +5,7 @@ from datetime import timedelta
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-change-this-in-prod'
 DEBUG = True
-ALLOWED_HOSTS = ['*'] # For development. Restrict in production.
+ALLOWED_HOSTS = ['advocate-1-ytj8.onrender.com ','localhost','127.0.0.1'] # For development. Restrict in production.
 
 INSTALLED_APPS = [
     'django.contrib.admin',
